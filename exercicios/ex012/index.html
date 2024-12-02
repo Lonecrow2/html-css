@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Videos em HTML5</title>
+</head>
+<body>
+    <h1>Videos hospedados localmente</h1>
+    <p>
+        Este video esta hospedado no meu proprio servidor
+    </p>
+  
+        <strong><em>
+            <p>Video colocado com um unico arquivo, mp4</p>
+        </em>
+    
+    <video src="midia/meu-video-mp4.mp4" poster="imagens/foto.m.720.png" width="400" controls></video>
+    <br>
+    <p>
+    <strong>
+        <em>
+            <p>Videos colocado com arquivos diferentes caso nao de certo no navegador, nesse caso mp4 webm</p>
+        </em>
+    </strong>
+    <video width="500" controls poster="imagens/foto.m.720.png">
+        <source src="midia/meu-video-mp4.mp4" type="video/mp4">
+        <source src="midia/meu-video-webm.webm" type="video/webm">
+    </video>
+    </p>
+    <h1>Vídeo incorporado do Youtube</h1>
+    <p>
+        <iframe width="315" height="315" src="https://www.youtube.com/embed/HWwAZrG0zWE?si=_bgV_d4ezf5nA_Cr" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    </p>
+</body>
+</html>

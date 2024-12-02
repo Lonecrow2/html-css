@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em HTML5</title>
+</head>
+<body>
+    <h1>Imagem dinâmica </h1>
+    <p>
+        Aumente ou diminua o tamanho do navegador
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto.p.png" type="image/png">
+        <source media="(max-width: 1050px )" srcset="imagens/foto.m.png" type="image/png">
+        <img src="imagens/foto.g.png" alt="imagem dinâmica">
+    </picture>
+
+    <p>
+        Outro exemplo só que com imagens
+    </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/foto.p.falsofuturo.jpg" type="image/jpg">
+        <source media="(max-width: 1050px)" srcset="imagens/foto.m.falsofuturo.jpg" type="image/jpg">
+        <img src="imagens/foto.g.falsofuturo.jpg" alt="Imagem dinâmica">
+    </picture>
+    <h1>Reproduzindo Audío</h1>
+    <p>
+        Vamos reproduzir um audio em HTML5
+    </p>
+    
+    <h2>tag padrão</h2>
+    <audio src="midia/happy-mistake.mp3" controls></audio>
+    
+    <h2>tag mais detalhada para outros tipos de arquivos de audio</h2>
+    
+    <audio preload="metadata" controls> 
+            <source src="midia/guanacast-33.mp3" type="audio/mpeg">
+            <source src="midia/guanacast-33.ogg" type="audio/ogg">
+    </audio>
+</body>
+</html>
