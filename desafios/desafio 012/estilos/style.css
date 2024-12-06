@@ -1,11 +1,71 @@
 @charset "UTF-8";
 
-body{margin: 0;
+*{
+    margin: 0;
     padding: 0;
+}
+
+html, body{
+    background-color: darkgrey;
+    min-height: 100vh;
+}
+
+header{
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header > h1{
+    padding-top: 50px;
+    font-variant: small-caps;
+}
+
+header > p{
+    padding-bottom: 50px;
+}
+
+header a, footer a{
+    text-decoration: none;
+    color: white;  
+    font-weight: bolder;
+}
+
+header a:hover, footer a:hover{
+    text-decoration: underline;
+}
+
+section{
+    line-height: 2em;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    padding-left: 30px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
 }
 
 pre{white-space: pre-line;
 } 
+
+section.normal{
+    background-color: white;
+    color: black;
+}
+
+section.imagem{
+    background-color: #333333;
+    color: white;
+}
+
+section.imagem > pre > p {
+    background-color: rgb(109, 109, 109);
+    width: 400px;
+}
 
 .license{  
     color: black;
