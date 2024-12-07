@@ -82,16 +82,35 @@ section.normal{
 }
 
 section.imagem{
-    
-    background-color: #333333;
+    background-attachment: fixed;
+    background-position: right center;
+    background-size: cover;
+    box-shadow: inset 6px 6px 13px 0px black;
+    text-shadow: 1px 1px 2px black;
+    background-color: #4b4b4b;
     color: white;
 }
 
 section.imagem > pre > p {
     display: inline-block;
     max-width: 100%;
-    background-color: rgb(109, 109, 109);
+    background-color: #2c2c2c80;
     padding: 5px;
+}
+
+section > pre >p{
+
+    padding-bottom: 2em;
+}
+
+#img01{
+    
+   
+    background-image: url(../imagens/background001.jpg);
+}
+
+#img02{
+    background-image: url(../imagens/background002.jpg);
 }
 
 .license :hover{
