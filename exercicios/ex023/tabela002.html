@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabelas</title>
+
+    <style>
+
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+            border: 2px solid black;
+        }
+
+      
+
+        td{
+            padding: 10px;
+            background-color: #c4c4c4;
+            border: 2px solid black;
+        }
+        th{
+            padding: 10px;
+            background-color: grey;
+            border: 2px solid black;
+        }
+     
+
+        .num{
+            background-color: grey;
+            text-align: right;
+        }
+    </style>
+
+</head>
+<body>
+    <h1>Tabelas grandes</h1>
+    <table>
+        <thead>
+            <tr>
+                <th>Estado</th>
+                <th>População</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td >São Paulo</td>
+                <td >45 919 049</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td >21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td >17 264 943</td>
+            </tr>
+
+            
+        </tbody>
+
+        <tfoot>
+            <tr>
+                <th>Total de Habitantes</th>
+                <td class="num"><strong>84.352.783</strong></td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
