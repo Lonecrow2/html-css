@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio tabela</title>
+
+    <style>
+
+        h1{
+            font-weight: lighter;
+            font-size: 18px;
+        }
+
+        caption{
+            font-size: 18px;
+        }
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            height: 350px;
+            width: 350px;
+            border-collapse: collapse;
+            border: 1px solid black;
+        }
+        
+        thead{
+            height: 70px;
+        }
+
+        td{ text-align: center;
+            padding: 5px;
+            border: 1px solid black;
+        }
+
+        th{ background-color: grey;
+            color: white;
+            padding: 5px;
+            border: 1px solid black;
+        }
+        
+        .titu2{
+            background-color: white;
+            color: black;
+        }
+
+        .dados2{
+            font-weight: bold;
+            background-color: grey;
+            color: white;
+        }
+
+        .leftalign{
+            text-align: left;
+        }
+    </style>
+
+
+</head>
+<body>
+    <table>
+        <caption>Tabela de notas (table)</caption>
+        <thead>
+            <tr>
+                <th rowspan="2" scope="col">Área</th>
+                <th rowspan="2" scope="col">Disciplinas</th>
+                <th colspan="2" scope="colgroup">Notas</th>
+                <th rowspan="2" scope="col">Média</th>
+            </tr>
+            <tr>
+                <th scope="col">Nota1</th>
+                <th scope="col">Nota2</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <th rowspan="4" scope="rowgroup" class="titu2">Exatas</th>
+                <td class="leftalign">Matemática</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td class="leftalign">Física</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+            <td class="leftalign">Química</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            <tr class="leftalign">
+                <td class="leftalign">Biologia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <th colspan="4" scope="row" class="leftalign">Média de Exatas</th>
+                <td class="dados2">0.0</td>
+            </tr>
+
+            <tr>
+                <th rowspan="2" scope="rowgroup" class="titu2" >Humanas</th>
+                <td class="leftalign">História</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <td class="leftalign">Geografia</td>
+                <td>0.0</td>
+                <td>0.0</td>
+                <td>0.0</td>
+            </tr>
+
+            <tr>
+                <th colspan="4" scope="row" class="leftalign">Média de Humanas</th>
+                <td class="dados2">0.0</td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+    <h1>Tabela de notas feita por guanabara que devo copiar como desafio (img)</h1>
+    <img src="Imagens/Sem título.jpg" alt="" style="width: 350px; height: 350px;">
+</body>
+</html>
