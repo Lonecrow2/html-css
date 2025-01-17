@@ -8,30 +8,37 @@
 }
 
 body, html {
-    background-color: lightgrey;
+    background-image: linear-gradient(to right, #000333, #020968, #000bac);
 }
 
 header > h1{
     padding: 10px;
     text-align: center;
+    color: #00ccff;
 }
 
 menu > ul{
     display: none;
+    border-radius: 10px;
+    width: 90vw;
+    margin: auto;
 }
 
 
 
 #burguer{
     display: block;
-    background-color: grey;
+    width: 90vw;
+    margin: auto;
+    border-radius: 10px;
+    background-color: #00ccff;
     text-align: center;
     font-size: 2em;
     cursor: pointer;
 }
 
 #burguer:hover{
-    background-color: white;
+    background-color: #008bad;
     color: black;
 }
 
@@ -46,20 +53,23 @@ menu > ul{
 menu > ul > li > a{
     display: block;
     padding: 10px;
+    border-radius: 10px;
     text-decoration: none;
-    background-color: grey;
+    background-color: #00ccff;
     text-align: center;
-    color: white;
-    border-top: 2px solid lightgrey;
+    color: #ffffff;
+    margin-top: 4px;
+    font-size: 1.5em;
+    text-shadow: 2px 2px 2px black;
 }
 
 menu > ul > li > a:hover{
-    background-color: red;
+    background-color: #008bad;
 }
 
 main{
     width: 90vw;
-    background-color: white;
+    background-color: #00ccff;
     margin: auto;
     margin-top: 10px;
     padding: 10px;
