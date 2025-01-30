@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FLEXBOX</title>
+    <style>
+        .container{
+            display: flex;
+            background-color: #303030;
+            border: 2px solid #700000;
+            flex-wrap: nowrap;
+            flex-direction: row;
+        }
+
+        .item{
+            border: 1px solid #700000;
+            text-align: center;
+            background-color: #e0e0e0;
+            flex-basis: 150px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="item">A</div>
+        <div class="item">Outro conteúdo</div>
+        <div class="item">C</div>
+        <div class="item">Conteúdo um pouco maior</div>
+        <div class="item">E</div>
+        <div class="item">Conteúdo maior ainda, que vai ocupar mais espaço.</div>
+        <div class="item">G</div>
+    </div>
+</body>
+</html>
